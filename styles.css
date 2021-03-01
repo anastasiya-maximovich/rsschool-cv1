@@ -8,6 +8,7 @@ header {
 
 container{
     width: 1220px;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,11 +22,25 @@ header img {
 header h1{
     font-size: 48px;
 }
-.general{
-    display: flex;
-    flex-direction: column;
+
+.header_content{
     text-align: center;
-   
+}
+
+.header_content a{
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.header_content a:first-child{
+    margin-left: 0;
+}
+
+.header_content a:hover{
+    color: rgb(240, 135, 15);
+    text-decoration: underline;
 }
 
 .general a{
@@ -33,9 +48,6 @@ header h1{
     color: rgb(19, 170, 27);
 }
 
-h3{
-    font-size: 24px;
-}
 
 .general_items{
     display: flex;   
