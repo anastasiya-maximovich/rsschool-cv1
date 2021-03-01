@@ -8,11 +8,11 @@ header {
 
 container{
     width: 1220px;
-    padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 header img {
     width: 150px;
     border-radius: 25%;
@@ -21,6 +21,10 @@ header img {
 
 header h1{
     font-size: 48px;
+}
+
+header h2{
+    font-size: 30px;
 }
 
 .header_content{
@@ -43,27 +47,57 @@ header h1{
     text-decoration: underline;
 }
 
-.general a{
-    text-decoration: none;
-    color: rgb(19, 170, 27);
+.general{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
-.general_items{
-    display: flex;   
+.general_content{
+    width: 33%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.general_content h3{
+    font-size: 28px;
+    color: rgb(46, 36, 36);
+    margin: 0 auto; 
 }
 
-li{
-    list-style-type: none; 
-}
-.items li{
+.general_content p, ol, ul{
     font-size: 20px;
+    padding: 10px 30px;
 }
-.general_items div{
-    flex: 1;   
+
+.general_content h4{
+    font-size: 24px;
+    color: rgb(0, 0, 238);
+    margin: 36px auto; 
 }
-.general_items :last-child{
-    flex: 2;
+
+
+.text{
+    color: rgb(39, 28, 204);
+}
+
+.hrefs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hrefs> ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.hrefs img{
+    display: block;
+    width: 20%;
 }
 
 .footer{
