@@ -1,0 +1,69 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+
+container{
+    width: 1220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img {
+    width: 150px;
+    border-radius: 25%;
+    padding: 5px;
+}
+
+header h1{
+    font-size: 48px;
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.general a{
+    text-decoration: none;
+    color: rgb(19, 170, 27);
+}
+
+h3{
+    font-size: 24px;
+}
+
+.general_items{
+    display: flex;   
+}
+
+li{
+    list-style-type: none; 
+}
+.items li{
+    font-size: 20px;
+}
+.general_items div{
+    flex: 1;   
+}
+.general_items :last-child{
+    flex: 2;
+}
+
+.footer{
+    display: flex;
+    background-color: cyan;
+    justify-content: space-around;   
+}
+
+.footer div{
+    padding: 10px;
+}
+
+.footer img{
+    width: 50px;
+}
