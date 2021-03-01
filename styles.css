@@ -6,7 +6,7 @@ header {
     background-color: cornflowerblue;
 }
 
-container{
+.container{
     width: 1220px;
     display: flex;
     justify-content: space-around;
