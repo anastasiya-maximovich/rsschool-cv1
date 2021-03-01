@@ -100,16 +100,26 @@ header h2{
     width: 20%;
 }
 
-.footer{
-    display: flex;
+
+footer{
     background-color: cyan;
-    justify-content: space-around;   
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
-.footer div{
+footer ul{
+    margin: 0;
     padding: 10px;
 }
 
-.footer img{
+footer ul li{
+    display: inline;
+    margin-right: 5px;
+    padding: 70px;
+    list-style: none;
+}
+
+footer img{
     width: 50px;
 }
